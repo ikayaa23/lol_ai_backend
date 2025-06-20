@@ -1,0 +1,5 @@
+# config.py
+
+API_KEY = "RGAPI-770452be-1270-4749-8f08-b5b50a74fd25"  # BURAYA KENDİ KEY'İNİ YAZ
+REGION = "tr1"
+ROUTING = "europe"
