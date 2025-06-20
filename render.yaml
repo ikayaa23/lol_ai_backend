@@ -5,5 +5,9 @@ services:
     buildCommand: ""
     startCommand: "gunicorn app:app"
     envVars:
-      - key: PORT
-        value: 10000
+      - key: RIOT_API_KEY
+        fromEnvVar: RIOT_API_KEY
+      - key: REGION
+        fromEnvVar: REGION
+      - key: ROUTING
+        fromEnvVar: ROUTING
